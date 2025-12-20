@@ -42,15 +42,11 @@ class armstrong
         {
             
 
-           
+           int ld = n%10;
             
-        
-            int ld = n%10;
-
             sum = sum + fact (digits,ld);
-
-
-            n = n/10;
+            
+             n = n/10;
         }
         System.out.println(sum);
         if (sum == ognum)
